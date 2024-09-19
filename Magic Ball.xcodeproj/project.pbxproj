@@ -10,20 +10,22 @@
 		46923AC22C172DBF00310A48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46923AC12C172DBF00310A48 /* AppDelegate.swift */; };
 		46923AC42C172DBF00310A48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46923AC32C172DBF00310A48 /* SceneDelegate.swift */; };
 		46923AC62C172DBF00310A48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46923AC52C172DBF00310A48 /* ViewController.swift */; };
-		46923AC92C172DBF00310A48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46923AC72C172DBF00310A48 /* Main.storyboard */; };
 		46923ACB2C172DC000310A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46923ACA2C172DC000310A48 /* Assets.xcassets */; };
 		46923ACE2C172DC000310A48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46923ACC2C172DC000310A48 /* LaunchScreen.storyboard */; };
+		E79B5A13D685812BD7C61C13 /* Pods_Magic_Ball.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B969C461D1D5E61CDFFF30 /* Pods_Magic_Ball.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		062D4CAC075BC54CA89291C1 /* Pods-Magic Ball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Ball.debug.xcconfig"; path = "Target Support Files/Pods-Magic Ball/Pods-Magic Ball.debug.xcconfig"; sourceTree = "<group>"; };
 		46923ABE2C172DBF00310A48 /* Magic Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46923AC12C172DBF00310A48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46923AC32C172DBF00310A48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46923AC52C172DBF00310A48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46923AC82C172DBF00310A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46923ACA2C172DC000310A48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46923ACD2C172DC000310A48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46923ACF2C172DC000310A48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5989649C20E34EEF7EB7651 /* Pods-Magic Ball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magic Ball.release.xcconfig"; path = "Target Support Files/Pods-Magic Ball/Pods-Magic Ball.release.xcconfig"; sourceTree = "<group>"; };
+		E5B969C461D1D5E61CDFFF30 /* Pods_Magic_Ball.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Magic_Ball.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79B5A13D685812BD7C61C13 /* Pods_Magic_Ball.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07DFFA7D33FD5F10D4495A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5B969C461D1D5E61CDFFF30 /* Pods_Magic_Ball.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46923AB52C172DBF00310A48 = {
 			isa = PBXGroup;
 			children = (
 				46923AC02C172DBF00310A48 /* Magic Ball */,
 				46923ABF2C172DBF00310A48 /* Products */,
+				8D01A9E28E4645FEAD06B13A /* Pods */,
+				07DFFA7D33FD5F10D4495A3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +72,21 @@
 				46923AC12C172DBF00310A48 /* AppDelegate.swift */,
 				46923AC32C172DBF00310A48 /* SceneDelegate.swift */,
 				46923AC52C172DBF00310A48 /* ViewController.swift */,
-				46923AC72C172DBF00310A48 /* Main.storyboard */,
 				46923ACA2C172DC000310A48 /* Assets.xcassets */,
 				46923ACC2C172DC000310A48 /* LaunchScreen.storyboard */,
 				46923ACF2C172DC000310A48 /* Info.plist */,
 			);
 			path = "Magic Ball";
+			sourceTree = "<group>";
+		};
+		8D01A9E28E4645FEAD06B13A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				062D4CAC075BC54CA89291C1 /* Pods-Magic Ball.debug.xcconfig */,
+				A5989649C20E34EEF7EB7651 /* Pods-Magic Ball.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46923AD22C172DC000310A48 /* Build configuration list for PBXNativeTarget "Magic Ball" */;
 			buildPhases = (
+				829DDD640BF5059E983DB05F /* [CP] Check Pods Manifest.lock */,
 				46923ABA2C172DBF00310A48 /* Sources */,
 				46923ABB2C172DBF00310A48 /* Frameworks */,
 				46923ABC2C172DBF00310A48 /* Resources */,
+				DE49877D436A32F53E870989 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +151,52 @@
 			files = (
 				46923ACE2C172DC000310A48 /* LaunchScreen.storyboard in Resources */,
 				46923ACB2C172DC000310A48 /* Assets.xcassets in Resources */,
-				46923AC92C172DBF00310A48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		829DDD640BF5059E983DB05F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Magic Ball-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE49877D436A32F53E870989 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magic Ball/Pods-Magic Ball-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Magic Ball/Pods-Magic Ball-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Magic Ball/Pods-Magic Ball-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46923ABA2C172DBF00310A48 /* Sources */ = {
@@ -147,14 +212,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46923AC72C172DBF00310A48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46923AC82C172DBF00310A48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46923ACC2C172DC000310A48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,17 +344,18 @@
 		};
 		46923AD32C172DC000310A48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062D4CAC075BC54CA89291C1 /* Pods-Magic Ball.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLSFRK3N4G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Magic Ball/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,17 +373,18 @@
 		};
 		46923AD42C172DC000310A48 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5989649C20E34EEF7EB7651 /* Pods-Magic Ball.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLSFRK3N4G;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Magic Ball/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

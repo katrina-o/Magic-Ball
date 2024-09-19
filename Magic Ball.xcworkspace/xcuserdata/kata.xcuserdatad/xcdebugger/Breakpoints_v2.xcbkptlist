@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C440CE14-E395-4535-93FF-EE9BCF4542D3"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Magic Ball/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 519c278ebdd82eb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.imageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 6d05e85f19d9bacb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.imageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 4c2f3b246a5c9424"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - ceb067b619815720"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 580d522644240209"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Magic_Ball.ViewController"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 5ae64529dcd949be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Magic_Ball.ViewController&gt;"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 580d52264424026a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Magic_Ball.ViewController"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "5E5C2A66-ABD6-4023-A85A-0FF5AB3C9B46 - 5ae64529dcd949dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Magic_Ball.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Magic_Ball.ViewController&gt;"
+                  moduleName = "Magic Ball"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kata/Desktop/Magic%20Ball/Magic%20Ball/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
